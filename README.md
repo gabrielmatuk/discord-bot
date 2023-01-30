@@ -1,7 +1,7 @@
 <h1>Discord - Bot</h1>
 
 <p>1) Você vai inserir o token do bot no arquivo .env </p>
-<p>2) Rode npm install e npm run start para iniciar a aplicação. </p>
+<p>2) Rode nvm use, npm install e npm run start para iniciar a aplicação. </p>
 
 
 <h3>Os comandos atuais são:<h3>
