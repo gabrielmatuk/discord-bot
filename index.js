@@ -35,7 +35,7 @@ client.on("message", async (message) => {
     const url = args[1];
     const voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
-      message.reply("You need to be in a voice channel to play music.");
+      message.reply("Você precisar estar em alguma sala.");
       return;
     }
     try {
@@ -54,7 +54,7 @@ client.on("message", async (message) => {
     }
   } else if (message.content === "!pular") {
     if (!dispatcher) {
-      message.reply("Não tem música otcando.");
+      message.reply("Não tem música tocando.");
     } else {
       dispatcher.end();
     }
